@@ -1,0 +1,94 @@
+{
+  "source_image": "../samples/sample_invoice.png",
+  "psm_mode": 6,
+  "confidence_threshold": 80.0,
+  "accepted_detections": [
+    {
+      "text": "INVOICE",
+      "confidence": 95.0
+    },
+    {
+      "text": "#4471",
+      "confidence": 96.0
+    },
+    {
+      "text": "Date:",
+      "confidence": 95.0
+    },
+    {
+      "text": "2026-08-20",
+      "confidence": 96.0
+    },
+    {
+      "text": "Wireless",
+      "confidence": 96.0
+    },
+    {
+      "text": "Router",
+      "confidence": 96.0
+    },
+    {
+      "text": "Unit",
+      "confidence": 96.0
+    },
+    {
+      "text": "Quantity:",
+      "confidence": 96.0
+    },
+    {
+      "text": "3",
+      "confidence": 96.0
+    },
+    {
+      "text": "Unit",
+      "confidence": 95.0
+    },
+    {
+      "text": "Price:",
+      "confidence": 95.0
+    },
+    {
+      "text": "$89.00",
+      "confidence": 96.0
+    },
+    {
+      "text": "Total",
+      "confidence": 96.0
+    },
+    {
+      "text": "$267.00",
+      "confidence": 96.0
+    },
+    {
+      "text": "Thank",
+      "confidence": 96.0
+    },
+    {
+      "text": "you",
+      "confidence": 96.0
+    },
+    {
+      "text": "for",
+      "confidence": 96.0
+    },
+    {
+      "text": "your",
+      "confidence": 96.0
+    },
+    {
+      "text": "business",
+      "confidence": 96.0
+    }
+  ],
+  "rejected_detections": [
+    {
+      "text": "(tem:",
+      "confidence": 52.0
+    },
+    {
+      "text": "Due:",
+      "confidence": 73.0
+    }
+  ],
+  "full_text": "INVOICE #4471 Date: 2026-08-20 Wireless Router Unit Quantity: 3 Unit Price: $89.00 Total $267.00 Thank you for your business"
+}
